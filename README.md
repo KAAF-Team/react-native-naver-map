@@ -288,6 +288,7 @@ interface PathProps {
     pattern?: ImageSourcePropType
     patternInterval?: number
     onClick?: () => void
+    isHideCollidedSymbols?: boolean
 }
 ```
 
