@@ -153,5 +153,5 @@ public class RNNaverMapPathOverlay extends ClickableRNNaverMapFeature<PathOverla
         return getContext().getResources().getIdentifier(name, "drawable", getContext().getPackageName());
     }
 
-    private void setIsHideCollidedSymbols(boolean isHideCollidedSymbols) { feature.setHideCollidedSymbols(isHideCollidedSymbols); }
+    public void setIsHideCollidedSymbols(boolean isHideCollidedSymbols) { feature.setHideCollidedSymbols(isHideCollidedSymbols); }
 }
