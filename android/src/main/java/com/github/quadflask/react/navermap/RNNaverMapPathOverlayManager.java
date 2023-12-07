@@ -107,4 +107,9 @@ public class RNNaverMapPathOverlayManager extends EventEmittableViewGroupManager
     public void setProgress(RNNaverMapPathOverlay view, float progress) {
         view.setProgress(progress);
     }
+
+    @ReactProp(name = "isHideCollidedSymbols", defaultBoolean = false)
+    public void setIsHideCollidedSymbols(RNNaverMapPathOverlay view, boolean isHideCollidedSymbols) {
+        view.setIsHideCollidedSymbols(isHideCollidedSymbols);
+    }
 }

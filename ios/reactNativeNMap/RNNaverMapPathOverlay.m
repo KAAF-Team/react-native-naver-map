@@ -91,4 +91,8 @@
   _realOverlay.patternInterval = patternInterval;
 }
 
+- (void) setIsHideCollidedSymbols: (BOOL) isHideCollidedSymbols {
+  _realOverlay.isHideCollidedSymbols = isHideCollidedSymbols;
+}
+
 @end

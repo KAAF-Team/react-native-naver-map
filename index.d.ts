@@ -228,6 +228,7 @@ export interface PathProps extends Omit<MapOverlay, "coordinate"> {
     patternInterval?: number;
     progress?: number;
     zIndex?: number;
+    isHideCollidedSymbols?: boolean;
 }
 export declare class Path extends Component<PathProps> {
     render(): JSX.Element;

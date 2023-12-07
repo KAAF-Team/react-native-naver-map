@@ -1,4 +1,4 @@
-//
+ //
 //  RNNaverMapPolylineOverlay.h
 //
 //  Created by flask on 18/04/2019.
@@ -26,5 +26,6 @@
 @property (nonatomic, assign) NSString* pattern;
 @property (nonatomic, assign) CGFloat patternInterval;
 @property (nonatomic, copy) RCTDirectEventBlock onClick;
+@property (nonatomic, assign) BOOL isHideCollidedSymbols;
 
 @end
